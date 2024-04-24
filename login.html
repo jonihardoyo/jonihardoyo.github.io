@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="img_avatar2.png" rel="shortcut icon" style="border-radius: 50%" />
+    <title>Login Sistem</title>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h2>Login Form</h2> -->
+
+    <form id="loginForm" style="border-radius: 10px">
+      <div class="imgcontainer">
+        <img src="bahan/foto/img_avatar2.png" alt="Avatar" class="avatar" />
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" id="username" placeholder="Enter Username" name="uname" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" id="password" placeholder="Enter Password" name="psw" required />
+
+        <button onclick="Login()" style="border-radius: 10px">Login</button>
+      </div>
+
+      <script src="js/login.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </form>
+  </body>
+</html>
